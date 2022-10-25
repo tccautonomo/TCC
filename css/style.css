@@ -9711,3 +9711,7 @@ a.text-dark:hover, a.text-dark:focus {
     transform: translateY(-15px);
   }
 }
+
+.bg-blue {
+  background-color: #5E94FF;
+}
