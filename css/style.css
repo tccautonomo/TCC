@@ -3976,7 +3976,7 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #FFD333;
+  background-color: #5E94FF;
 }
 
 .nav-fill > .nav-link,
@@ -6094,7 +6094,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #FFD333 !important;
+  background-color: #5E94FF !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6164,7 +6164,11 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #3D464D !important;
+  background-color: #0F398F !important;
+}
+
+.bg-footer {
+  background-color: #000000 !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -9264,7 +9268,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #FFD333 !important;
+  color: #5E94FF !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9509,7 +9513,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #FFD333;
+  color: #5E94FF;
 }
 
 @media (max-width: 991.98px) {
@@ -9713,5 +9717,5 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .bg-blue {
-  background-color: #5E94FF;
+  background-color: #0F398F;
 }
