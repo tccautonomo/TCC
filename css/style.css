@@ -3484,7 +3484,6 @@ input[type="button"].btn-block {
   display: block;
   min-height: 1.5rem;
   padding-left: 1.5rem;
-  color-adjust: exact;
 }
 
 .custom-control-inline {
@@ -6094,7 +6093,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #5E94FF !important;
+  background-color: #0F398F !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9268,7 +9267,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #5E94FF !important;
+  color: #FFFFFF !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9325,7 +9324,7 @@ a.text-light:hover, a.text-light:focus {
 }
 
 .text-dark {
-  color: #3D464D !important;
+  color: #FFFFFF !important;
 }
 
 a.text-dark:hover, a.text-dark:focus {
