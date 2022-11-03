@@ -1,0 +1,53 @@
+body{
+	background-color: #5e94ff;
+}
+
+#nome{
+	width: 20%; 
+	margin-bottom: 15px; 
+}
+
+#senha{
+	width: 20%;  
+}
+
+#email{
+	width: 20%; 
+}
+
+
+#data1{
+	margin-bottom: 15px;
+}
+
+#cpf{
+	margin-bottom: 15px; 
+}
+
+#apelido{ 
+	margin-bottom: 15px; 
+}
+
+#titulo{
+	margin-bottom: 2px;
+}
+
+#legendas{
+	margin-bottom: 15px; 
+}
+
+#form{
+position: absolute;
+left: 40%;
+right: 40%;
+top: 8%;
+background-color: #dbca57;
+padding:2%;
+border-radius: 27px;
+border: 3px solid #696969;
+}
+
+#btn{
+	text-align: center;
+	margin-left: 28%;
+}
