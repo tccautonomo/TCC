@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="css/cadastro.css">
+		<link rel="stylesheet" type="text/css" href="css/login.css">
 		<link href="css/bootstrap-datepicker.css" rel="stylesheet"/>
 		<script src="js/bootstrap-datepicker.min.js"></script> 
 		<script src="js/bootstrap-datepicker.pt-BR.min.js" charset="UTF-8"></script>
@@ -16,35 +16,19 @@
 </head>
 <body>
   <form id="form">
-    <div id="agrup">
-      <h5 id="titulo" for="nome"><strong>Nome Completo</strong></h5>
-      <input type="email" class="form-control form-control-sm w-100" id="nome" placeholder="Digite seu nome completo">
-
-        <h5 id="titulo" for="senha"><strong>Senha</strong></h5>
-        <input type="password" class="form-control form-control-sm w-100" id="senha" placeholder="Digite sua senha">
-        <small id="legendas" class="text-muted">
-                Faça uma senha de até 8 caracteres
-        </small>
-                   
-          <h5 id="titulo" for="data1"><strong>Data</strong></h5>
-            <div class="input-group date w-100" id="data1">
-              <input type="text" class="form-control form-control-sm" placeholder="00/00/0000">
-                <div class="input-group-addon">
-                  <span class="glyphicon glyphicon-th"></span>
-                </div>
-            </div>
-           
-            <h5 id="titulo" for="cpf"><strong>CPF</strong></h5>
-            <input type="text" class="form-control form-control-sm w-100" id="cpf" placeholder="Digite aqui seu CPF">
-              
+    <div id="agrup">              
               <h5 id="titulo" for="email"><strong>Email</strong></h5>
               <input type="text" class="form-control form-control-sm w-100" id="email" placeholder="Digite seu email">
               <small class="text-muted" id="legendas">
                 Coloque um email valido
               </small>
+
+                      <h5 id="titulo" for="senha"><strong>Senha</strong></h5>
+        <input type="password" class="form-control form-control-sm w-100" id="senha" placeholder="Digite sua senha">
+        <small id="legendas" class="text-muted">
                 
-                <h5 id="titulo" for="apelido"><strong>Apelido</strong></h5>
-                <input type="text" class="form-control form-control-sm w-100" id="apelido" placeholder="Digite seu apelido">
+        </small>
+                
                       
                   <button type="submit" class="btn btn-success" id="btn" >Cadastrar</button>
     </div>

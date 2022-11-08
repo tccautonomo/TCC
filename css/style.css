@@ -49,8 +49,13 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+article, aside, figcaption, figure, header, hgroup, main, nav, section {
   display: block;
+}
+
+footer{
+  display: block;
+  margin-bottom: 0;
 }
 
 body {
