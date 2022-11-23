@@ -145,7 +145,7 @@
                                 <i class="fas fa-heart text-primary"></i>
                                 <span class="badge text-secondary border border-secondary rounded-circle" style="padding-bottom: 2px;">0</span>
                             </a>
-                            <a href="" class="btn px-0 ml-3">
+                            <a href="cart.html" class="btn px-0 ml-3">
                                 <i class="fas fa-shopping-cart text-primary"></i>
                                 <span class="badge text-secondary border border-secondary rounded-circle" style="padding-bottom: 2px;">0</span>
                             </a>
@@ -179,30 +179,36 @@
             <div class="col-lg-7 mb-5">
                 <div class="contact-form bg-light p-30">
                     <div id="success"></div>
-                    <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                    <form action="https://api.staticforms.xyz/submit" name="sentMessage" id="contactForm" novalidate="novalidate" method="post">
+                        <input type="hidden" name="accessKey" value="47b704f1-485b-43a1-901c-58e1db030f29"> 
                         <div class="control-group">
-                            <input type="text" class="form-control" id="name" placeholder="Seu Nome"
-                                required="required" data-validation-required-message="Please enter your name" />
+                            <label for="name">Nome</label>
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Seu Nome"
+                                required="required" data-validation-required-message="Por favor coloque seu nome" />
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="control-group">
-                            <input type="email" class="form-control" id="email" placeholder="Seu email"
-                                required="required" data-validation-required-message="Please enter your email" />
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Seu email"
+                                required="required" data-validation-required-message="Por favor coloque seu email" />
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="control-group">
-                            <input type="text" class="form-control" id="subject" placeholder="Assunto"
-                                required="required" data-validation-required-message="Please enter a subject" />
+                            <label for="subject">Assunto</label>
+                            <input type="text" class="form-control" id="subject" name="subject" placeholder="Assunto"
+                                required="required" data-validation-required-message="Por favor insisra o assunto" />
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="control-group">
-                            <textarea class="form-control" rows="8" id="message" placeholder="Mensagem"
+                            <label for="message">Mensagem</label>
+                            <textarea class="form-control" rows="8" id="message" name="message" placeholder="Mensagem"
                                 required="required"
-                                data-validation-required-message="Please enter your message"></textarea>
+                                data-validation-required-message="Por favor insira sua mensagem"></textarea>
                             <p class="help-block text-danger"></p>
                         </div>
                         <div>
                             <button class="btn btn-primary py-2 px-4" type="submit" id="sendMessageButton">Enviar Mensagem</button>
+                            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/tcc-main/contact.html">
                         </div>
                     </form>
                 </div>
@@ -277,8 +283,7 @@
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
     <!-- Contact Javascript File -->
-    <script src="mail/jqBootstrapValidation.min.js"></script>
-    <script src="mail/contact.js"></script>
+    
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
